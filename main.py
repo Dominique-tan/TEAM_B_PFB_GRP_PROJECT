@@ -1,9 +1,10 @@
-# from overheads import overheads_function
-# from cash_on_hand import cash_on_hand_function
-# from profit_loss import net_profit
+from pathlib import Path
+import cash_on_hand,overheads,profit_loss
 
-# def main():
-#     summary_report_fp= Path.cwd()/r"C:\TEAM_B_PFB_GRP_PROJECT\Summary_report.txt"
- 
-#     with open()
+def main():
+    overheads.overheads_function()
+    cash_on_hand.cash_on_hand_function()
+    profit_loss.net_profit()
+
+main()
     
