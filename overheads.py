@@ -4,7 +4,7 @@ import csv
 def overheads_function():
     overheads_fp_read= Path.cwd()/"csv_folder"/"overheads.csv"
     fp_write= Path.cwd()/"Summary_report.txt"
-    fp_write.touch
+    fp_write.touch()
 
     overheads_list=[]
     
@@ -19,7 +19,7 @@ def overheads_function():
    
 
     highest_overhead_category=[]
-    highest_overhead_percentage=0.00 #ask cher abt this
+    highest_overhead_percentage=0.00 
 
     for category, overhead in overheads_list:
         if overhead>highest_overhead_percentage:
@@ -30,7 +30,6 @@ def overheads_function():
 
     with fp_write.open(mode="a", encoding="UTF-8", newline="") as file:
         file.write(highest_overhead_result + "\n")
-
 
 
 

@@ -1,0 +1,43 @@
+[HIGHEST OVERHEAD] Category:Marketing Expense
+[Cash deficit] Day: 1, Amount:USD12600
+[Cash deficit] Day: 2, Amount:USD267720
+[Cash deficit] Day: 3, Amount:USD2605353
+[Cash deficit] Day: 4, Amount:USD171548
+[Cash deficit] Day: 6, Amount:USD383271
+[Cash deficit] Day: 8, Amount:USD131035
+[Cash deficit] Day: 10, Amount:USD239972
+[Cash deficit] Day: 12, Amount:USD85849
+[Cash deficit] Day: 16, Amount:USD2105878
+[Cash deficit] Day: 21, Amount:USD182568
+[Cash deficit] Day: 23, Amount:USD483491
+[Cash deficit] Day: 24, Amount:USD530565
+[Cash deficit] Day: 28, Amount:USD3148932
+[Cash deficit] Day: 29, Amount:USD545889
+[Cash deficit] Day: 31, Amount:USD1613673
+[Cash deficit] Day: 32, Amount:USD54721
+[Cash deficit] Day: 36, Amount:USD1453513
+[Cash deficit] Day: 37, Amount:USD512280
+[Cash deficit] Day: 40, Amount:USD1599587
+[Cash deficit] Day: 41, Amount:USD808744
+[Cash deficit] Day: 51, Amount:USD1716389
+[Cash deficit] Day: 52, Amount:USD1733142
+[Cash deficit] Day: 61, Amount:USD35137
+[Cash deficit] Day: 70, Amount:USD1909422
+[Cash deficit] Day: 77, Amount:USD1324281
+[Cash deficit] Day: 78, Amount:USD1875101
+[Cash deficit] Day: 87, Amount:USD523515
+[Cash deficit] Day: 89, Amount:USD603676
+[PROFIT DEFICIT] DAY: 1, AMOUNT: USD 12600
+[PROFIT DEFICIT] DAY: 2, AMOUNT: USD 267720
+[PROFIT DEFICIT] DAY: 3, AMOUNT: USD 3402
+[PROFIT DEFICIT] DAY: 17, AMOUNT: USD 18011
+[PROFIT DEFICIT] DAY: 32, AMOUNT: USD 113897
+[PROFIT DEFICIT] DAY: 41, AMOUNT: USD 15539
+[PROFIT DEFICIT] DAY: 48, AMOUNT: USD 39458
+[PROFIT DEFICIT] DAY: 50, AMOUNT: USD 11009
+[PROFIT DEFICIT] DAY: 52, AMOUNT: USD 37740
+[PROFIT DEFICIT] DAY: 61, AMOUNT: USD 59549
+[PROFIT DEFICIT] DAY: 62, AMOUNT: USD 12486
+[PROFIT DEFICIT] DAY: 69, AMOUNT: USD 5838
+[PROFIT DEFICIT] DAY: 72, AMOUNT: USD 12339
+[PROFIT DEFICIT] DAY: 86, AMOUNT: USD 13500
