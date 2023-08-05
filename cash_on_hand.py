@@ -27,7 +27,7 @@ def cash_on_hand_function():
         if difference<0:
             cash_on_hand_difference.append(f"[Cash deficit] Day: {cash_on_hand_list[cash][0]}, Amount:USD{abs(difference)}")
 
-    with fp_write.open(mode="w",encoding="UTF-8",newline="") as file:
+    with fp_write.open(mode="a",encoding="UTF-8",newline="") as file:
         for cash_deficit in cash_on_hand_difference:
             print(cash_deficit)
             file.write(cash_deficit+"\n")
