@@ -1,3 +1,4 @@
+
 [HIGHEST OVERHEAD] Category:Marketing Expense
 [Cash deficit] Day: 1, Amount:USD12600
 [Cash deficit] Day: 2, Amount:USD267720

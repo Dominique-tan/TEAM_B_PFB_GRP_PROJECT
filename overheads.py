@@ -27,10 +27,10 @@ def overheads_function():
             highest_overhead_category= category 
 
     highest_overhead_result=f"[HIGHEST OVERHEAD] Category:{highest_overhead_category}"
+    print(highest_overhead_result)
 
     with fp_write.open(mode="a", encoding="UTF-8", newline="") as file:
         file.write(highest_overhead_result + "\n")
-
 
 
 
