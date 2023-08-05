@@ -3,7 +3,9 @@ import csv
 
 def net_profit():
     net_profit_fp_read= Path.cwd()/"csv_folder"/"Profit_and_Loss.csv"
-    net_profit_list=[]
+    fp_write = Path.cwd()/"Summary_report.txt"
+    fp_write.touch()
+
 
     with net_profit_fp_read.open(mode="r", encoding="UTF-8", newline="") as file:
         reader=csv.reader(file)
