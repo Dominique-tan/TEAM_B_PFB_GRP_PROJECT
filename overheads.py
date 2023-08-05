@@ -2,8 +2,9 @@ from pathlib import Path
 import csv
 
 def overheads_function():
-    overheads_fp_read= Path.cwd()/r"C:\TEAM_B_PFB_GRP_PROJECT\csv_folder\overheads.csv"
-    overheads_list=[]
+    overheads_fp_read= Path.cwd()/"csv_folder"/"overheads.csv"
+    fp_write= Path.cwd()/"Summary_report.txt"
+    fp_write.touch
 
     with overheads_fp_read.open(mode="r", encoding="UTF-8", newline="") as file:
         reader=csv.reader(file)
@@ -23,7 +24,10 @@ def overheads_function():
             highest_overhead_percentage= overhead
             highest_overhead_category= category 
 
-    print(f"[HIGHEST OVERHEAD] Category:{highest_overhead_category}:{highest_overhead_percentage:.2f}%")
+    highest_overhead_result=f"[HIGHEST OVERHEAD] Category:{highest_overhead_category}"
+
+    with fp_write.open(mode="w", encoding="UTF-8", newline="") as file:
+        file.write(highest_overhead_result + "\n")
 
 
 
