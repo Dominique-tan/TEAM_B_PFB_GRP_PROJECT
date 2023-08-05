@@ -2,7 +2,9 @@ from pathlib import Path
 import csv
 
 def cash_on_hand_function():
-    cash_on_hand_fp_read= Path.cwd()/r"C:\TEAM_B_PFB_GRP_PROJECT\csv_folder\Cash_on_Hand.csv"
+    cash_on_hand_fp_read= Path.cwd()/"csv_folder"/"Cash_on_Hand.csv"
+    fp_write= Path.cwd()/"Summary_report.txt"
+    fp_write.touch
 
     cash_on_hand_list=[]
 
@@ -24,9 +26,11 @@ def cash_on_hand_function():
 
         if difference<0:
             cash_on_hand_difference.append(f"[Cash deficit] Day: {cash_on_hand_list[cash][0]}, Amount:USD{abs(difference)}")
-#ask cher if can use abs function>
-    for cash_deficit in cash_on_hand_difference:
-        print(cash_deficit)
+
+    with fp_write.open(mode="w",encoding="UTF-8",newline="") as file:
+        for cash_deficit in cash_on_hand_difference:
+            print(cash_deficit)
+            file.write(cash_deficit+"\n")
 
 
 cash_on_hand_function()
