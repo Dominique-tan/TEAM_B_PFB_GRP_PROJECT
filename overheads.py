@@ -6,6 +6,8 @@ def overheads_function():
     fp_write= Path.cwd()/"Summary_report.txt"
     fp_write.touch
 
+    overheads_list=[]
+    
     with overheads_fp_read.open(mode="r", encoding="UTF-8", newline="") as file:
         reader=csv.reader(file)
         next(reader)
