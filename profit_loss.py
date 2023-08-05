@@ -6,6 +6,8 @@ def net_profit():
     fp_write = Path.cwd()/"Summary_report.txt"
     fp_write.touch()
 
+    net_profit_list=[]
+
 
     with net_profit_fp_read.open(mode="r", encoding="UTF-8", newline="") as file:
         reader=csv.reader(file)
