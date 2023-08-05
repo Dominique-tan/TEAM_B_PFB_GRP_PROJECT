@@ -33,4 +33,4 @@ def cash_on_hand_function():
             file.write(cash_deficit+"\n")
 
 
-cash_on_hand_function()
+
