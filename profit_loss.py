@@ -29,7 +29,7 @@ def net_profit():
     for deficit in profit_deficit_list:
         print(deficit)
 
-     with fp_write.open(mode="w", encoding="UTF*",newline="") as file:
+     with fp_write.open(mode="a", encoding="UTF*",newline="") as file:
         for deficit in profit_deficit_list:
             file.write(deficit+"\n")
 
