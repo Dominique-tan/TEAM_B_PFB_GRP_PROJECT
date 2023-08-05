@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 
 def net_profit():
-    net_profit_fp_read= Path.cwd()/r"C:\TEAM_B_PFB_GRP_PROJECT\csv_folder\Profit_and_Loss.csv"
+    net_profit_fp_read= Path.cwd()/"csv_folder"/"Profit_and_Loss.csv"
     net_profit_list=[]
 
     with net_profit_fp_read.open(mode="r", encoding="UTF-8", newline="") as file:
@@ -26,6 +26,10 @@ def net_profit():
 
     for deficit in profit_deficit_list:
         print(deficit)
+
+     with fp_write.open(mode="w", encoding="UTF*",newline="") as file:
+        for deficit in profit_deficit_list:
+            file.write(deficit+"\n")
 
 net_profit()
 
