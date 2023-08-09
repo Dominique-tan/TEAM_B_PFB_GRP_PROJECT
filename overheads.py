@@ -1,11 +1,11 @@
 from pathlib import Path
 import csv
 
+# create function
 def overheads_function():
     """
     - processes data from overheads.csv file to find highest overhead where results are written in Summary_report file
     - no parameters required
-    -
     """
 
     # using the path module, set the file paths for the input and output files
